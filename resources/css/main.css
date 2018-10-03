@@ -1,0 +1,487 @@
+@CHARSET "UTF-8";
+
+/*.navbar-header {
+    overflow: hidden;
+}*/
+
+.clearfix:after {
+	content: “”; /*necessary with before and after*/
+	display: table; /*change the behaviour of the div to table*/
+	clear: both; /*clearing the remaining area from both left and right*/
+}
+
+/*@include media-breakpoint-up(xs) {
+  .row .heading {
+    font-size: 12px;
+  }
+    #introduction .intro {
+        font-size: 8px;
+    }
+}*/
+
+/*@include media-breakpoint-up(sm) {
+  .row .heading {
+    font-size: 24px;
+  }
+    #introduction .intro {
+        font-size: 16px;
+    }
+}
+
+@include media-breakpoint-up(md) {
+  .row .heading {
+    font-size: 36px;
+  }
+    #introduction .intro {
+        font-size: 24px;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+  .row .heading {
+    font-size: 48px;
+  }
+    #introduction .intro {
+        font-size: 32px;
+    }
+}*/
+
+/*html {
+    font-size: 40%;
+}
+@media(min-width:60em) {
+    html, body {
+        font-size: 200%
+    }
+}*/
+
+
+
+/*@include media-breakpoint-up(sm) {
+    body {
+        font-size: 4px;
+    }
+    .row .heading {
+        font-size: 3.0em;
+    }
+    #introduction .intro {
+        font-size: 2.0em;
+    }
+    #makers .desc .face-name {
+        font-size: 2.5em;
+    }
+    #makers .desc .face-rollno {
+        font-size: 2.0em;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    body {
+        font-size: 8px;
+    }
+    .row .heading {
+        font-size: 3.0em;
+    }
+    #introduction .intro {
+        font-size: 2.0em;
+    }
+    #makers .desc .face-name {
+        font-size: 2.5em;
+    }
+    #makers .desc .face-rollno {
+        font-size: 2.0em;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    body {
+        font-size: 12px;
+    }
+    .row .heading {
+        font-size: 3.0em;
+    }
+    #introduction .intro {
+        font-size: 2.0em;
+    }
+    #makers .desc .face-name {
+        font-size: 2.5em;
+    }
+    #makers .desc .face-rollno {
+        font-size: 2.0em;
+    }
+}*/
+
+/*html {
+	font-size: 14px;
+}*/
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    /*padding-top: 50px;*/
+    font-size: 10px;
+    /*font-size: 1.0em;*/
+    position: relative;
+}
+
+nav {
+    margin-bottom: 0 !important;
+}
+
+.navbar-brand img {
+    /*So that the logo doesn't go out of the header.*/
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.row .heading {
+    text-align: center;
+    color: #000088;
+    font-weight: 300;
+    /*font-size: 48px;*/
+    /*font-size: 300%;*/
+    font-size: 3.0em;
+    /*font-size: 7.5em;*/
+}
+
+/*.anchor {
+    display: block;
+    height: 50px;*/ /*same height as header*/
+    /*margin-top: -50px;*/ /*same height as header*/
+    /*visibility: hidden;
+    min-height: 0 !important;
+}*/
+
+#introduction {
+    background: url('../img/Blue-Wavy-Pattern-Abstract-Curved-White-Waves-WallpapersByte-com-2560x1080.jpg') no-repeat center center;
+    
+    /*min-height: 100%;*/
+    
+    /*position: relative;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%) */
+}
+
+#eid {
+    background: url('../img/flora.jpg') no-repeat center center;
+}
+
+#introduction, #about-us, #eid {
+    background-size: cover;
+    min-height: 100%;
+    padding: 50px;
+}
+
+#introduction .intro {
+    /*font-size: 32px;*/
+    /*font-size: 200%;*/
+    font-size: 2.0em;
+    font-weight: 200;
+}
+
+#introduction .container {
+    /*height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;*/
+    /*display: table;
+    height: 100%;*/
+    /*top 0;
+    left 0;*/
+    /*min-height: 100% !important;
+    height: 100%;*/
+    /*display: inline-block;*/
+}
+
+#introduction .container #intro {
+    /*display: table-row-group;*/
+    /*margin-top: 15%;
+    margin-bottom: 15%;*/
+    /*vertical-align: middle;*/
+    
+    /*position: relative;
+    top 0;
+    left 0;
+    width: 100%;
+    height: 100%;*/
+    /*margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);*/
+    
+    padding: 10%;
+}
+
+.intro {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+
+/*#eid .container {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}*/
+
+#main-buttons {
+    /*text-align: center;*/
+    /*vertical-align: middle;
+    height: 80vh;
+    position: relative;*/
+    /*min-height: 100%;
+    height: 100%;*/
+    /*top: 50% !important;*/
+    /*display: table;
+    height: 700%;
+    width: 100%;*/
+    /*height: 100%;*/
+    /*position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: 20%;
+    min-height: 700px;
+    min-width: 700px;*/
+    /*margin-top: -50%;
+    margin-bottom: -50%;*/
+    /*margin 20%;*/
+}
+
+.intro {
+    /*display: table-cell;
+    vertical-align: middle;*/
+    /*text-align: center;
+    display: block;*/
+    max-width: 100%;
+    /*width: 100%;
+    height: 100%;
+    margin: 0 auto;*/
+}
+
+#main-buttons-wrapper {
+    padding: 25% 0 25% 0;
+    /*min-height: 100%;
+    height: 100%;*/
+    /*margin: auto;*/
+    /*padding: auto;*/
+    /*display: table-cell;*/
+    /*vertical-align: middle;*/
+    /*display: inline-block;
+    vertical-align: middle;
+    float: none;*/
+    /*position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;*/
+    /*top: 50%;
+    left: 50%;*/
+     /*-ms-transform: translate(-50%, -50%);*/
+    /*transform: translate(-50%, -50%);*/
+    
+}
+
+#introduction .container {
+    /*height: 100% !important;*/
+    
+}
+
+#introduction .container .row .col-md-12 {
+    /*height: 100%;*/
+    /*display: table;*/
+    /*padding: 5% 0;*/
+    /*display: flex;
+    justify-content: space-around;*/
+}
+
+#introduction .container #intro {
+    /*height: 100%;*/
+    /*display: flex;
+    justify-content: space-around;*/
+}
+
+#introduction .container #intro .col-md-12 .intro {
+    /*margin: auto;
+    display: flex;
+    justify-content: space-around;*/
+    
+    /*display: flex;
+    justify-content: space-around;*/
+}
+
+#introduction .container .row .col-md-12 .intro {
+    /*display: table-cell;
+    vertical-align: middle;*/
+    /*padding: 10% 0;*/
+    /*margin: -20% 0 0 -25%;*/
+}
+
+/*#about-us {
+    height: 80%;
+}*/
+
+/*.container {
+    hei
+}*/
+
+#about-us {
+    display: table;
+    /*background: #EEF7FE;*/
+}
+
+#about-us, #about-us .container {
+    max-height: 100% !important;
+    margin: auto;
+    /*display: table;*/
+    /*display: table-cell;
+    vertical-align: middle;*/
+}
+
+#about-us .container {
+    /*important*/
+    /*display: table-row-group;
+    vertical-align: middle;*/
+    display: table-cell;
+    /*display: table-row-group;*/
+    vertical-align: middle;
+    /*max-width: 80%;*/
+}
+
+#about-us .container #head {
+    /*display: table-row;
+    vertical-align: top;*/
+    /*display: table;*/
+}
+
+#about-us .container #makers {
+    /*display: flex;
+    align-items: center;*/
+    /*vertical-align: middle;*/
+    max-height: 60%;
+    margin: auto !important;
+    /*display: table-row;
+    vertical-align: bottom;*/
+    /*vertical-align: middle;*/
+    /*display: table;*/
+    /*position: relative;*/
+    /*top: 50%;*/
+    /*display: table-row;
+    vertical-align: middle;*/
+    /*margin-top: 200px;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;*/
+}
+
+#about-us .container .row .col-md-4 {
+    max-height: 100% !important;
+    /*background: #EEF7FE;*/
+    /*background: #1DA0FD;*/
+    background: #C9E8FD;
+    /*display: table-cell;
+    vertical-align: middle;*/
+}
+
+#makers .face {
+    /*position: relative;
+    float: left;*/
+    max-height: 70%;
+    width: auto;
+    /*padding: auto;*/
+    text-align: center;
+    margin: auto;
+}
+
+#makers .face img {
+    /*max-width: 100%;
+    max-height: 100%;*/
+    max-width: 100%;
+    max-height: auto;
+    margin: auto;
+    /*padding: auto;*/
+    border-radius: 50%;
+}
+
+#makers .desc .face-name, #makers .desc .face-rollno {
+    text-align: center;
+    color: gray;
+}
+
+#makers .desc .face-name {
+    /*font-size: 40px;*/
+    /*font-size: 250%;*/
+    font-size: 2.5em;
+    /*font-size: 3em;*/
+    font-weight: 200;
+}
+
+#makers .desc .face-rollno {
+    /*font-size: 32px;*/
+    /*font-size: 200%;*/
+    font-size: 2.0em;
+    /*font-size: 3em;*/
+    font-weight: 100;
+}
+
+/*.container .btn-lg {
+    padding: 50px;
+}*/
+
+#eid {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+/*textarea {
+    resize: none;
+}*/
+
+@media screen and (max-width: 991px) {
+  body {
+    font-size: 12px;
+  }
+    .main-buttons {
+        margin-bottom: 10%;
+    }
+    .main-buttons:last-child {
+        margin-bottom: auto;
+    }
+    .form-element {
+        margin-bottom: 5%;
+    }
+    .form-element:last-child {
+        margin-bottom: auto;
+    }
+}
+
+@media (min-width: 992px and max-width: 1199px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+
+
+/*#introduction {
+    background: url('/EID/WebContent/resources/img/MacBook-Pro-Event-Wallpaper-ari-weinkle-Spiral_4B.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
+}*/
